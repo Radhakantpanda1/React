@@ -1,5 +1,6 @@
-
-let hh=React.createElement('h1',{id:"head"},"hello world from react");
+import React from "react";
+import ReactDOM  from "react-dom/client";
+let hh=React.createElement('h1',{id:"head"},"hello world from react npm done updated");
 console.log(hh);// object
 const root=ReactDOM.createRoot(document.getElementById("root"));
 console.log(root);// object
